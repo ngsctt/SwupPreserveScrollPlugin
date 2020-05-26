@@ -1,10 +1,8 @@
-
-
 # Swup Preserve Scroll Plugin
 
 This is a plugin for [swup](https://swup.js.org/) - complete, flexible, extensible and easy to use page transition library for your web.
 
-## Instalation
+## Installation
 
 This plugin can be installed with npm
 
