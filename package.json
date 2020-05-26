@@ -3,10 +3,16 @@
   "version": "0.0.0",
   "description": "Plugin for swup to preserve the scroll position of specified elements",
   "main": "lib/index.js",
+  "files": [
+    "lib/index.js",
+    "dist",
+    "README.md",
+    "LICENCE"
+  ],
   "scripts": {
     "compile": "babel --presets es2015,stage-0 -d lib/ src/",
     "build": "webpack-cli",
-    "prepublish": "npm run compile && npm run build"
+    "prepublishOnly": "npm run compile && npm run build"
   },
   "author": "Nathan Scott <dev@ngscott.net>",
   "license": "MIT",
