@@ -7,13 +7,13 @@ This is a plugin for [swup](https://swup.js.org/) - complete, flexible, extensib
 This plugin can be installed with npm
 
 ```bash
-npm install swup-preserve-scroll-plugin
+npm install @ngsctt/swup-preserve-scroll-plugin
 ```
 
 and included with import
 
 ```javascript
-import SwupPreserveScrollPlugin from 'swup-preserve-scroll-plugin';
+import SwupPreserveScrollPlugin from '@ngsctt/swup-preserve-scroll-plugin';
 ```
 
 or included from the dist folder
